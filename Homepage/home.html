@@ -5,54 +5,58 @@
     <title>Seojeong's homepage</title>
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD1AACWAgAArQMAAIwCAATJBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREAAREAAAARERARERAAABEREBEREAAAEREQEREQAAABEQABEQAAAAAEAABAAAAAAARAAEAAAAAAAEQAQAAFVVVQBERAAAVVVVUAREAABVIlVQBEQAAFVSIiVEA1VQBVVVJEAFIlUAVVVQAAUyJQAAAAAAAFVVAAAAAAAAAADxxwAA4IMAAOCDAADggwAA8ccAAP3vAAD87wAA/m8AAAMPAAABjwAAAY8AAAAhAACAYAAAweAAAP/wAAD//wAA" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav>
-      <a href="home.html">Home</a>
-      <a href="pictures.html">Pictures</a>
-      <a href="travel.html">Travel</a>
-    </nav>
-    <header>
-      <h1>Seo-Jeong Lim(임서정)</h1>
-    </header>
-    <section>
-      <table>
-        <tr>
-          <td width="35%">
-            <img src="home/서정.jpg" alt="profile" width="120px" height="160px">
-          </td>
-          <td>
-            <strong>Sophomore</strong>
-            <br>
-            <a href="http://ce.sejong.ac.kr/" target="_blank">Dept. of Computer Engineering</a>
-            <br>
-            <a href="http://sejong.ac.kr/college/software.html?menu_id=1.12" target="_blank">College of Software Convergence</a>
-            <br>
-            <a href="http://www.sejong.ac.kr/" target="_blank">Sejong University</a>
-          </td>
-        </tr>
-      </table>
-    </section>
-    <section>
-      <article>
-        <h3>Vita</h3>
-        <ul type="circle">
-          <li>2019.03 ~ present, Extracurricular activity - <a href="https://likelion.net/" target="_blank">LikeLion</a> </li>
-          <li>2018.03 ~ present, Bachelor, <a href="http://ce.sejong.ac.kr/" target="_blank">Dept. of Computer Engineering</a>, <a href="http://www.sejong.ac.kr" target="_blank">Sejong University</a></li>
-          <li>2014.03 ~ 2017.02, High school student, <a href="http://www.jungang.hs.kr/" target="_blank">Jeonju Jungang Girl's High School</a></li>
-          <li>2011.03 ~ 2014.02, Middle school student, <a href="http://www.phw.ms.kr/" target="_blank">Jeonju Pyeonghwa Middle School</a></li>
-        </ul>
-      </article>
-    </section>
-    <br>
-    <footer>
-      <i class="far fa-envelope fa-xs"></i> sjytis14@naver.com
-      <br>
-      <i class="fas fa-phone fa-xs"></i> +82 10-3408-3409
-      <br>
-      <i class="fab fa-instagram fa-md"></i> @ssseo__j
-      <br>
-      <i class="far fa-copyright fa-xs"></i> 2019 by Seo-Jeong Lim
-    </footer>
+    <div id="page-wrapper">
+        <header id="main-header">
+          <h1 class="master-title">Seo-Jeong Lim (임서정)</h1>
+        </header>
+        <nav id="main-navigation">
+          <ul class="outer-menu">
+            <li class="outer-menu-item"><a href="home.html" class="menu-title">Home</a></li>
+            <li class="outer-menu-item"><a href="pictures.html" class="menu-title">Pictures</a></li>
+            <li class="outer-menu-item"><a href="travel.html" class="menu-title">Travel</a></li>
+          </ul>
+        </nav>
+        <section id="introduction">
+          <table>
+            <tr>
+              <td width="35%">
+                <img src="img/home/서정.jpg" alt="profile" width="120px" height="160px">
+              </td>
+              <td>
+                <h4>Sophomore</h4>
+                <a href="http://ce.sejong.ac.kr/" target="_blank">Dept. of Computer Engineering</a>
+                <br>
+                <a href="http://sejong.ac.kr/college/software.html?menu_id=1.12" target="_blank">College of Software Convergence</a>
+                <br>
+                <a href="http://www.sejong.ac.kr/" target="_blank">Sejong University</a>
+              </td>
+            </tr>
+          </table>
+        </section>
+        <section id="vita">
+          <article>
+            <h2>Vita</h2>
+            <ul type="circle">
+              <li>2019.03 ~ present, Extracurricular activity - <a href="https://likelion.net/" target="_blank">LikeLion</a> </li>
+              <li>2018.03 ~ present, Bachelor, <a href="http://ce.sejong.ac.kr/" target="_blank">Dept. of Computer Engineering</a>, <a href="http://www.sejong.ac.kr" target="_blank">Sejong University</a></li>
+              <li>2014.03 ~ 2017.02, High school student, <a href="http://www.jungang.hs.kr/" target="_blank">Jeonju Jungang Girl's High School</a></li>
+              <li>2011.03 ~ 2014.02, Middle school student, <a href="http://www.phw.ms.kr/" target="_blank">Jeonju Pyeonghwa Middle School</a></li>
+            </ul>
+          </article>
+        </section>
+        <hr>
+        <footer>
+          <i class="far fa-envelope fa-xs"></i> sjytis14@naver.com
+          <br>
+          <i class="fas fa-phone fa-xs"></i> +82 10-3408-3409
+          <br>
+          <i class="fab fa-instagram fa-md"></i> @ssseo__j
+          <br>
+          <i class="far fa-copyright fa-xs"></i> 2019 by Seo-Jeong Lim
+        </footer>
+    </div>
   </body>
 </html>
